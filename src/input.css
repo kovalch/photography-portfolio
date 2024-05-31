@@ -17,6 +17,28 @@
     transform-origin: 70% 70%;
     display: inline-block;
   }
+
+  @font-face {
+    font-family: 'Mak';
+    src: url('/dist/fonts/MAK.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Mak';
+    src: url('/dist/fonts/MAK-bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Mak';
+    src: url('/dist/fonts/Mak-SemiBoldHigh.otf') format('opentype');
+    font-weight: 600; /* Adjust this based on the actual weight */
+    font-style: normal;
+  }
+
   @keyframes wave {
     0% { transform: rotate( 0.0deg) }
    10% { transform: rotate(14.0deg) }
